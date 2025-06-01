@@ -85,12 +85,6 @@ public class Controller {
         return currentSale.getRunningTotal();
     }
 
-    /** ÄNDRAD
-     * Processes the customer's payment and finalizes the sale.
-     * 
-     * @param paidAmount The amount paid by the customer.
-     */
-
      /**ÄNDRAD 
       * Processes the customer's payment. Sends sale info to inventory
       * and accounting. Updates the balance of the cash register where
